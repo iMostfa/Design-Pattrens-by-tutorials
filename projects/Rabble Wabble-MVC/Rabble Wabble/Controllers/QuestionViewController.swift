@@ -85,7 +85,7 @@ public class QuestionViewController: UIViewController {
     private func showNextQuestion() {
         questionIndex += 1
         //THE INDEX IS GREATER THAN THE NUMBER OF QUESTIONS => complete
-        guard questionIndex < questionGroup.questions.count else {
+        guard questionStrategy.advanceTonextQuestion() else {
             delegate?.questionViewController(self, didComplete: questionStrategy)
             return
         }

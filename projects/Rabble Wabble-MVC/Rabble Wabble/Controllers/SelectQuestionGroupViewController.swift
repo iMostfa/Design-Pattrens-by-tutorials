@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 public class SelectQuestionGroupViewController: UIViewController {
-    //MARK:OUTLETS
+    // MARK: OUTLETS
     @IBOutlet internal var tableView: UITableView! {
         didSet {
             tableView.tableFooterView = UIView()
         }
     }
-    //MARK:Properties
+    // MARK: Properties
     public let questionGroups = QuestionGroup.allGroups()
     private var selectedQuestionGroup: QuestionGroup!
 }

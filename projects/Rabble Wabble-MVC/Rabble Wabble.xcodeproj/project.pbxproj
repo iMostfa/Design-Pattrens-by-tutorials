@@ -21,6 +21,8 @@
 		5CC11A1D23DFB86E0046338A /* QuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC11A1C23DFB86E0046338A /* QuestionStrategy.swift */; };
 		5CC11A1F23DFBBC80046338A /* SequentialQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC11A1E23DFBBC80046338A /* SequentialQuestionStrategy.swift */; };
 		5CC11A2123DFBE300046338A /* RandomQuestionsStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC11A2023DFBE300046338A /* RandomQuestionsStrategy.swift */; };
+		5CC11A2323E0FDC20046338A /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC11A2223E0FDC20046338A /* AppSettings.swift */; };
+		5CC11A2523E106640046338A /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC11A2423E106640046338A /* AppSettingsViewController.swift */; };
 		5CF146AE23DF714100E7B362 /* SelectQuestionGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF146AD23DF714100E7B362 /* SelectQuestionGroupViewController.swift */; };
 		5CF146B023DF737200E7B362 /* QuestionGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF146AF23DF737200E7B362 /* QuestionGroupCell.swift */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		5CC11A1C23DFB86E0046338A /* QuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategy.swift; sourceTree = "<group>"; };
 		5CC11A1E23DFBBC80046338A /* SequentialQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialQuestionStrategy.swift; sourceTree = "<group>"; };
 		5CC11A2023DFBE300046338A /* RandomQuestionsStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionsStrategy.swift; sourceTree = "<group>"; };
+		5CC11A2223E0FDC20046338A /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		5CC11A2423E106640046338A /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
 		5CF146AD23DF714100E7B362 /* SelectQuestionGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuestionGroupViewController.swift; sourceTree = "<group>"; };
 		5CF146AF23DF737200E7B362 /* QuestionGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +134,7 @@
 			children = (
 				5C85C8ED23DF5ABE00DAADA1 /* QuestionViewController.swift */,
 				5CF146AD23DF714100E7B362 /* SelectQuestionGroupViewController.swift */,
+				5CC11A2423E106640046338A /* AppSettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 				5C85C91223DF5DEC00DAADA1 /* Question.swift */,
 				5C85C91623DF5E8D00DAADA1 /* QuestionGroupData.swift */,
 				5C85C91423DF5E4200DAADA1 /* QuestionGroup.swift */,
+				5CC11A2223E0FDC20046338A /* AppSettings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -296,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC11A2323E0FDC20046338A /* AppSettings.swift in Sources */,
 				5C85C8EE23DF5ABE00DAADA1 /* QuestionViewController.swift in Sources */,
 				5C85C91323DF5DEC00DAADA1 /* Question.swift in Sources */,
 				5C85C8EA23DF5ABE00DAADA1 /* AppDelegate.swift in Sources */,
@@ -306,6 +313,7 @@
 				5CC11A1F23DFBBC80046338A /* SequentialQuestionStrategy.swift in Sources */,
 				5CC11A1D23DFB86E0046338A /* QuestionStrategy.swift in Sources */,
 				5C85C91523DF5E4200DAADA1 /* QuestionGroup.swift in Sources */,
+				5CC11A2523E106640046338A /* AppSettingsViewController.swift in Sources */,
 				5CF146AE23DF714100E7B362 /* SelectQuestionGroupViewController.swift in Sources */,
 				5C85C8EC23DF5ABE00DAADA1 /* SceneDelegate.swift in Sources */,
 			);

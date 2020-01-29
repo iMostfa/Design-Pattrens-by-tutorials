@@ -102,6 +102,25 @@
             </objects>
             <point key="canvasLocation" x="2613" y="138"/>
         </scene>
+        <!--App Settings View Controller-->
+        <scene sceneID="m6Q-fE-1bo">
+            <objects>
+                <tableViewController id="JeE-ek-X3d" customClass="AppSettingsViewController" customModule="Rabble_Wabble" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mCo-SA-jEc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="JeE-ek-X3d" id="4Dx-gJ-xkp"/>
+                            <outlet property="delegate" destination="JeE-ek-X3d" id="W8Q-nC-ARX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="TVL-Fr-W7x"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9x3-vf-ZzJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3348" y="138"/>
+        </scene>
         <!--Questions Group-->
         <scene sceneID="zfl-4j-zeb">
             <objects>
@@ -166,7 +185,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Fup-er-VlM"/>
                     </view>
-                    <navigationItem key="navigationItem" id="b16-l5-6Wc"/>
+                    <navigationItem key="navigationItem" id="b16-l5-6Wc">
+                        <barButtonItem key="leftBarButtonItem" image="ic_settings" id="Hef-At-PmY">
+                            <connections>
+                                <segue destination="JeE-ek-X3d" kind="show" id="PBB-g8-NRp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="XE3-ST-rSj" id="ie9-oL-0M2"/>
                     </connections>
@@ -197,5 +222,6 @@
     <resources>
         <image name="ic_circle_check" width="80" height="80"/>
         <image name="ic_circle_x" width="80" height="80"/>
+        <image name="ic_settings" width="26" height="26"/>
     </resources>
 </document>

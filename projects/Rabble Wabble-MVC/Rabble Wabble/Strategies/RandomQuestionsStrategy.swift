@@ -9,7 +9,7 @@
 import Foundation
 import GameplayKit.GKRandomSource
 
-public class RandomQuestionsStrategy:QuestionStrategy {
+public class RandomQuestionsStrategy: QuestionStrategy {
     public var title: String {
         return questionGroup.title
     }

@@ -3,7 +3,7 @@ this repository will have my code for "Design patterns by tutorials" by Raywende
 each pattren is written in a playground file which shows how it works and what is solves and is used in the ios project from the book
 
 | Pattren | Description | Notes | Status | 
-| --- | --- | --- |  --- |
+| :---  | :---: | :---: |  :---:|
 | MVC | MODEL,VIEW,Controller | Will be added | ✅ |
 | Delegate Pattren | used to make objects controlls the behaviour of other objects | Will be added | ✅ |
 | Singlton | when we need only one instance of the class to be running in our app | Singlton plus allows to change the default instance to a new made\customized instance, like 'NSURL' and 'NSCache' | ✅ |

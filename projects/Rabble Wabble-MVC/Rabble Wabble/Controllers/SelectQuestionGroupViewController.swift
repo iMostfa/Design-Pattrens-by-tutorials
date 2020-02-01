@@ -49,7 +49,9 @@ extension SelectQuestionGroupViewController: UITableViewDelegate {
 
 extension SelectQuestionGroupViewController: QuestionViewControllerDelegate {
     public func questionViewController(_ viewController: QuestionViewController,
-                                       didCancel: QuestionStrategy, at questionIndex: Int) {navigationController?.popViewController(animated: true)}
+                                       didCancel: QuestionStrategy, at questionIndex: Int) {
+        navigationController?.popViewController(animated: true)
+    }
     public func questionViewController(_ viewController: QuestionViewController, didComplete: QuestionStrategy) {
                 navigationController?.popViewController(animated: true)
 
